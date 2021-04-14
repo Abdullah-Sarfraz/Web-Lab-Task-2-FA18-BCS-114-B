@@ -53,6 +53,11 @@ function add_Product() {
     data: { name, price, color, department, description },
     success: function (response) {
       console.log(response);
+      $("#name").val("");
+      $("#price").val("");
+      $("#color").val("");
+      $("#department").val("");
+      $("#description").val("");
       load_Products();
     },
   });
