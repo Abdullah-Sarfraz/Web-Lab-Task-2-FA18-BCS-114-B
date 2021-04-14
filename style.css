@@ -1,5 +1,5 @@
 .product {
-  font-family: "Zen Dots", cursive;
+  font-family: "Source Code Pro", monospace;
   border-bottom: 2px solid gray;
   margin-bottom: 5px;
 }
@@ -7,12 +7,15 @@
   float: right;
   margin: 6px;
 }
+.sub-heading {
+  font-weight: bold;
+}
 #title {
-  font-family: "Zen Dots", cursive;
+  font-family: "Source Code Pro", monospace;
   font-size: 5rem;
 }
 .form-group {
-  font-family: "Zen Dots", cursive;
+  font-family: "Source Code Pro", monospace;
   padding-left: 3rem;
 }
 .form-group label {
@@ -23,11 +26,12 @@
   width: 25rem;
 }
 .btn {
-  font-family: "Zen Dots", cursive;
-  font-size: 1.3rem;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .modal-title {
-  font-family: "Zen Dots", cursive;
+  font-family: "Source Code Pro", monospace;
   font-size: 2.2rem;
   font-weight: bold;
 }
