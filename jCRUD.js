@@ -89,7 +89,7 @@ function load_Products() {
         var rec = response[i];
         products.append(
           `<div class="product" data-id="${rec._id}">
-          <h3> ${rec.name} </h3>
+          <h3 class="sub-heading"> ${rec.name} </h3>
           <p>  $${rec.price}<br>
                ${rec.color}
           <button class="btn btn-danger btt">Delete</button>
