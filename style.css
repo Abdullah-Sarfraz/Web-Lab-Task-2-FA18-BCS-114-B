@@ -1,0 +1,33 @@
+.product {
+  font-family: "Zen Dots", cursive;
+  border-bottom: 2px solid gray;
+  margin-bottom: 5px;
+}
+.btt {
+  float: right;
+  margin: 6px;
+}
+#title {
+  font-family: "Zen Dots", cursive;
+  font-size: 5rem;
+}
+.form-group {
+  font-family: "Zen Dots", cursive;
+  padding-left: 3rem;
+}
+.form-group label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.form-group input {
+  width: 25rem;
+}
+.btn {
+  font-family: "Zen Dots", cursive;
+  font-size: 1.3rem;
+}
+.modal-title {
+  font-family: "Zen Dots", cursive;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
